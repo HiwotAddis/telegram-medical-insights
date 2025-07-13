@@ -6,6 +6,7 @@ WORKDIR /app
 # Install dependencies
 COPY requirements.txt .
 RUN pip install --default-timeout=300 --no-cache-dir -r requirements.txt
+COPY ./app /app/app
 
 # Copy project code
 COPY . .
