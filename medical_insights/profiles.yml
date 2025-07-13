@@ -1,0 +1,11 @@
+medical_insights:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: telegram_user
+      password: supersecret
+      dbname: telegram_data
+      schema: analytics
+      threads: 1
