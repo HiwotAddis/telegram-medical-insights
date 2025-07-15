@@ -9,3 +9,7 @@ pillow
 opencv-python
 dagster
 requests
+fastapi
+uvicorn
+psycopg2-binary
+python-dotenv
